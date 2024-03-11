@@ -1,7 +1,9 @@
+import UserForm from '@/app/(components)/UserForm.client';
+
 export default function CreateUser() {
   return (
     <div>
-      <h1>Only Admins</h1>
+      <UserForm />
     </div>
   );
 }

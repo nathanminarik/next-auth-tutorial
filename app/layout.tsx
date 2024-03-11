@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 import './globals.css';
-import Nav from './(components)/Nav';
-import AuthProvider from './(components)/AuthProvider';
+import Nav from './(components)/Nav.server';
+import AuthProvider from './(components)/AuthProvider.client';
 
 export const metadata: Metadata = {
   title: 'Next Auth Tutorial',

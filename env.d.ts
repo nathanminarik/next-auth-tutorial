@@ -6,5 +6,6 @@ namespace NodeJS {
     GOOGLE_SECRET: string;
     NEXTAUTH_URL: string;
     NEXTAUTH_SECRET: string;
+    MONGODB_URI: string;
   }
 }
